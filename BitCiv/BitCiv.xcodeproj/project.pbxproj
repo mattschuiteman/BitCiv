@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250884AE2586812C008F855E /* CitizenHappinessBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250884AD2586812C008F855E /* CitizenHappinessBar.swift */; };
+		250AF9FE25BC7EC30001F803 /* BitCivTextGameViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AF9FD25BC7EC30001F803 /* BitCivTextGameViews.swift */; };
+		250AFA0325BC847C0001F803 /* ScienceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AFA0225BC847C0001F803 /* ScienceHandler.swift */; };
+		251AF7B825DCA8DD00C25857 /* MilitaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251AF7B725DCA8DD00C25857 /* MilitaryView.swift */; };
+		25362FB4250E826F00561A79 /* PopUpOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25362FB3250E826F00561A79 /* PopUpOption.swift */; };
+		25362FB6250E827000561A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25362FB5250E827000561A79 /* Assets.xcassets */; };
+		25362FB9250E827000561A79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25362FB8250E827000561A79 /* Preview Assets.xcassets */; };
+		25362FBC250E827000561A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25362FBA250E827000561A79 /* LaunchScreen.storyboard */; };
+		25362FC7250E827000561A79 /* BitCivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25362FC6250E827000561A79 /* BitCivTests.swift */; };
+		25362FD2250E827000561A79 /* BitCivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25362FD1250E827000561A79 /* BitCivUITests.swift */; };
+		25362FE0250E8C5000561A79 /* BitCivGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25362FDF250E8C5000561A79 /* BitCivGame.swift */; };
+		25398EB12587BEEF00F61D92 /* NavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25398EB02587BEEF00F61D92 /* NavigationMenu.swift */; };
+		25398EB92587BF6400F61D92 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25398EB82587BF6400F61D92 /* MenuButton.swift */; };
+		254B316225DD8BC400F84751 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B316125DD8BC400F84751 /* Unit.swift */; };
+		2550D1CA25B65B71002DBD75 /* PopUpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550D1C925B65B71002DBD75 /* PopUpHandler.swift */; };
+		255C356F25AE81BE005480E4 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C356E25AE81BE005480E4 /* PopUpView.swift */; };
+		255CBBFF258309B7007CB089 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255CBBFE258309B7007CB089 /* ProgressBar.swift */; };
+		255CBC0525830FE9007CB089 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255CBC0425830FE9007CB089 /* Color.swift */; };
+		257A854925DCB42A00D79C3D /* Civ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257A854825DCB42A00D79C3D /* Civ.swift */; };
+		257FF3C425CDA40200A8703B /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257FF3C325CDA40200A8703B /* CustomNavigationView.swift */; };
+		257FF41325CE150000A8703B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257FF41225CE150000A8703B /* AppDelegate.swift */; };
+		257FF41825CE151400A8703B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257FF41725CE151400A8703B /* SceneDelegate.swift */; };
+		258FBDC225D1050A00529F9E /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258FBDC125D1050A00529F9E /* PopUp.swift */; };
+		25916BCF25DDFDE5006C51C2 /* BitCivNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25916BCE25DDFDE5006C51C2 /* BitCivNavigationView.swift */; };
+		25916BD425DE0158006C51C2 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25916BD325DE0158006C51C2 /* UnitView.swift */; };
+		25AF1E3B25E1AE900036194E /* hasProduced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AF1E3A25E1AE900036194E /* hasProduced.swift */; };
+		25AF1E4625E1B76D0036194E /* Array + Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AF1E4525E1B76D0036194E /* Array + Identifiable.swift */; };
+		25BF546525BB49B800F81C51 /* ResourceIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BF546425BB49B800F81C51 /* ResourceIcon.swift */; };
+		25D6043F25CB86AD00E503DA /* WorkforceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D6043E25CB86AD00E503DA /* WorkforceView.swift */; };
+		25DF454C25CD9E400085E8F1 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF454B25CD9E400085E8F1 /* ViewRouter.swift */; };
+		25DF455125CD9EA70085E8F1 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF455025CD9EA70085E8F1 /* MotherView.swift */; };
+		25DF455A25CDA0080085E8F1 /* BitCivView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF455925CDA0080085E8F1 /* BitCivView.swift */; };
+		25DF455F25CDA0300085E8F1 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF455E25CDA0300085E8F1 /* DisplayView.swift */; };
+		25DF456425CDA0680085E8F1 /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF456325CDA0680085E8F1 /* TitleBar.swift */; };
+		25DF456C25CDA09E0085E8F1 /* CommandBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF456B25CDA09E0085E8F1 /* CommandBar.swift */; };
+		25DF457125CDA0CF0085E8F1 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF457025CDA0CF0085E8F1 /* DataView.swift */; };
+		25DF457925CDA0F10085E8F1 /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF457825CDA0F10085E8F1 /* ProgressButton.swift */; };
+		25DF458125CDA14C0085E8F1 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF458025CDA14C0085E8F1 /* Page.swift */; };
+		25EAD9E4258A73990037C072 /* HappinessMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD9E3258A73990037C072 /* HappinessMenu.swift */; };
+		25EAD9EC258A73F70037C072 /* ScienceMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD9EB258A73F70037C072 /* ScienceMenu.swift */; };
+		25EAD9F1258A74C50037C072 /* HappinessMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD9F0258A74C50037C072 /* HappinessMenuButton.swift */; };
+		25EB10322526A60E00A59D00 /* BitCivTextGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EB10312526A60E00A59D00 /* BitCivTextGame.swift */; };
+		25F462E725B2618C00631856 /* BitCivTextGameFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F462E625B2618C00631856 /* BitCivTextGameFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25362FC3250E827000561A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25362FA4250E826F00561A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25362FAB250E826F00561A79;
+			remoteInfo = BitCiv;
+		};
+		25362FCE250E827000561A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25362FA4250E826F00561A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25362FAB250E826F00561A79;
+			remoteInfo = BitCiv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		250884AD2586812C008F855E /* CitizenHappinessBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenHappinessBar.swift; sourceTree = "<group>"; };
+		250AF9FD25BC7EC30001F803 /* BitCivTextGameViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivTextGameViews.swift; sourceTree = "<group>"; };
+		250AFA0225BC847C0001F803 /* ScienceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceHandler.swift; sourceTree = "<group>"; };
+		251AF7B725DCA8DD00C25857 /* MilitaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryView.swift; sourceTree = "<group>"; };
+		25362FAC250E826F00561A79 /* BitCiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25362FB3250E826F00561A79 /* PopUpOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpOption.swift; sourceTree = "<group>"; };
+		25362FB5250E827000561A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25362FB8250E827000561A79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25362FBB250E827000561A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25362FBD250E827000561A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25362FC2250E827000561A79 /* BitCivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitCivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25362FC6250E827000561A79 /* BitCivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivTests.swift; sourceTree = "<group>"; };
+		25362FC8250E827000561A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25362FCD250E827000561A79 /* BitCivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitCivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25362FD1250E827000561A79 /* BitCivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivUITests.swift; sourceTree = "<group>"; };
+		25362FD3250E827000561A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25362FDF250E8C5000561A79 /* BitCivGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivGame.swift; sourceTree = "<group>"; };
+		25398EB02587BEEF00F61D92 /* NavigationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenu.swift; sourceTree = "<group>"; };
+		25398EB82587BF6400F61D92 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		254B316125DD8BC400F84751 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		2550D1C925B65B71002DBD75 /* PopUpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpHandler.swift; sourceTree = "<group>"; };
+		255C356E25AE81BE005480E4 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		255CBBFE258309B7007CB089 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		255CBC0425830FE9007CB089 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		257A854825DCB42A00D79C3D /* Civ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civ.swift; sourceTree = "<group>"; };
+		257FF3C325CDA40200A8703B /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		257FF41225CE150000A8703B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		257FF41725CE151400A8703B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		258FBDC125D1050A00529F9E /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		25916BCE25DDFDE5006C51C2 /* BitCivNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivNavigationView.swift; sourceTree = "<group>"; };
+		25916BD325DE0158006C51C2 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
+		25AF1E3A25E1AE900036194E /* hasProduced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasProduced.swift; sourceTree = "<group>"; };
+		25AF1E4525E1B76D0036194E /* Array + Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array + Identifiable.swift"; sourceTree = "<group>"; };
+		25BF546425BB49B800F81C51 /* ResourceIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceIcon.swift; sourceTree = "<group>"; };
+		25D6043E25CB86AD00E503DA /* WorkforceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkforceView.swift; sourceTree = "<group>"; };
+		25DF454B25CD9E400085E8F1 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		25DF455025CD9EA70085E8F1 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		25DF455925CDA0080085E8F1 /* BitCivView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivView.swift; sourceTree = "<group>"; };
+		25DF455E25CDA0300085E8F1 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		25DF456325CDA0680085E8F1 /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
+		25DF456B25CDA09E0085E8F1 /* CommandBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandBar.swift; sourceTree = "<group>"; };
+		25DF457025CDA0CF0085E8F1 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		25DF457825CDA0F10085E8F1 /* ProgressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
+		25DF458025CDA14C0085E8F1 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		25EAD9E3258A73990037C072 /* HappinessMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappinessMenu.swift; sourceTree = "<group>"; };
+		25EAD9EB258A73F70037C072 /* ScienceMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceMenu.swift; sourceTree = "<group>"; };
+		25EAD9F0258A74C50037C072 /* HappinessMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappinessMenuButton.swift; sourceTree = "<group>"; };
+		25EB10312526A60E00A59D00 /* BitCivTextGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivTextGame.swift; sourceTree = "<group>"; };
+		25F462E625B2618C00631856 /* BitCivTextGameFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCivTextGameFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25362FA9250E826F00561A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25362FBF250E827000561A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25362FCA250E827000561A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251AF7AB25DCA31600C25857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25362FDF250E8C5000561A79 /* BitCivGame.swift */,
+				257A854825DCB42A00D79C3D /* Civ.swift */,
+				254B316125DD8BC400F84751 /* Unit.swift */,
+				25AF1E3A25E1AE900036194E /* hasProduced.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25362FA3250E826F00561A79 = {
+			isa = PBXGroup;
+			children = (
+				25362FAE250E826F00561A79 /* BitCiv */,
+				25362FC5250E827000561A79 /* BitCivTests */,
+				25362FD0250E827000561A79 /* BitCivUITests */,
+				25362FAD250E826F00561A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25362FAD250E826F00561A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25362FAC250E826F00561A79 /* BitCiv.app */,
+				25362FC2250E827000561A79 /* BitCivTests.xctest */,
+				25362FCD250E827000561A79 /* BitCivUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25362FAE250E826F00561A79 /* BitCiv */ = {
+			isa = PBXGroup;
+			children = (
+				257FF41225CE150000A8703B /* AppDelegate.swift */,
+				257FF41725CE151400A8703B /* SceneDelegate.swift */,
+				251AF7AB25DCA31600C25857 /* Model */,
+				2550D1CE25B65F30002DBD75 /* View Model */,
+				25DF454B25CD9E400085E8F1 /* ViewRouter.swift */,
+				255CBC0325830FD8007CB089 /* Utility */,
+				255CBBF225830931007CB089 /* Views */,
+				25362FB5250E827000561A79 /* Assets.xcassets */,
+				25362FBA250E827000561A79 /* LaunchScreen.storyboard */,
+				25362FBD250E827000561A79 /* Info.plist */,
+				25362FB7250E827000561A79 /* Preview Content */,
+			);
+			path = BitCiv;
+			sourceTree = "<group>";
+		};
+		25362FB7250E827000561A79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25362FB8250E827000561A79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25362FC5250E827000561A79 /* BitCivTests */ = {
+			isa = PBXGroup;
+			children = (
+				25362FC6250E827000561A79 /* BitCivTests.swift */,
+				25362FC8250E827000561A79 /* Info.plist */,
+			);
+			path = BitCivTests;
+			sourceTree = "<group>";
+		};
+		25362FD0250E827000561A79 /* BitCivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25362FD1250E827000561A79 /* BitCivUITests.swift */,
+				25362FD3250E827000561A79 /* Info.plist */,
+			);
+			path = BitCivUITests;
+			sourceTree = "<group>";
+		};
+		25398EAF2587BECF00F61D92 /* NavigationViews */ = {
+			isa = PBXGroup;
+			children = (
+				25398EB02587BEEF00F61D92 /* NavigationMenu.swift */,
+				25D6043E25CB86AD00E503DA /* WorkforceView.swift */,
+				257A853A25DCAC7500D79C3D /* MilitaryViews */,
+				25916BCE25DDFDE5006C51C2 /* BitCivNavigationView.swift */,
+			);
+			path = NavigationViews;
+			sourceTree = "<group>";
+		};
+		2550D1CE25B65F30002DBD75 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				25EB10312526A60E00A59D00 /* BitCivTextGame.swift */,
+				25F462E625B2618C00631856 /* BitCivTextGameFunctions.swift */,
+				2550D1C925B65B71002DBD75 /* PopUpHandler.swift */,
+				250AFA0225BC847C0001F803 /* ScienceHandler.swift */,
+				250AF9FD25BC7EC30001F803 /* BitCivTextGameViews.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		2551622F25B67A7700C71173 /* Sub Menus */ = {
+			isa = PBXGroup;
+			children = (
+				25EAD9EB258A73F70037C072 /* ScienceMenu.swift */,
+				25EAD9E3258A73990037C072 /* HappinessMenu.swift */,
+			);
+			path = "Sub Menus";
+			sourceTree = "<group>";
+		};
+		255CBBF225830931007CB089 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25DF455025CD9EA70085E8F1 /* MotherView.swift */,
+				25DF455525CD9FE20085E8F1 /* BitCivViews */,
+				255CBBFE258309B7007CB089 /* ProgressBar.swift */,
+				250884AD2586812C008F855E /* CitizenHappinessBar.swift */,
+				255C356E25AE81BE005480E4 /* PopUpView.swift */,
+				25398EAF2587BECF00F61D92 /* NavigationViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		255CBC0325830FD8007CB089 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				25BF546425BB49B800F81C51 /* ResourceIcon.swift */,
+				255CBC0425830FE9007CB089 /* Color.swift */,
+				25DF458025CDA14C0085E8F1 /* Page.swift */,
+				257FF3C325CDA40200A8703B /* CustomNavigationView.swift */,
+				258FBDC125D1050A00529F9E /* PopUp.swift */,
+				25AF1E4525E1B76D0036194E /* Array + Identifiable.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		257A853A25DCAC7500D79C3D /* MilitaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				251AF7B725DCA8DD00C25857 /* MilitaryView.swift */,
+				25916BD325DE0158006C51C2 /* UnitView.swift */,
+			);
+			path = MilitaryViews;
+			sourceTree = "<group>";
+		};
+		25DF455525CD9FE20085E8F1 /* BitCivViews */ = {
+			isa = PBXGroup;
+			children = (
+				25362FB3250E826F00561A79 /* PopUpOption.swift */,
+				25DF455925CDA0080085E8F1 /* BitCivView.swift */,
+				25DF456325CDA0680085E8F1 /* TitleBar.swift */,
+				25DF455E25CDA0300085E8F1 /* DisplayView.swift */,
+				25EAD9E2258A73860037C072 /* Command Bar Views */,
+				25DF457025CDA0CF0085E8F1 /* DataView.swift */,
+			);
+			path = BitCivViews;
+			sourceTree = "<group>";
+		};
+		25EAD9E2258A73860037C072 /* Command Bar Views */ = {
+			isa = PBXGroup;
+			children = (
+				25DF456B25CDA09E0085E8F1 /* CommandBar.swift */,
+				2551622F25B67A7700C71173 /* Sub Menus */,
+				25EAD9FB258A74D00037C072 /* Menu Buttons */,
+			);
+			path = "Command Bar Views";
+			sourceTree = "<group>";
+		};
+		25EAD9FB258A74D00037C072 /* Menu Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				25DF457825CDA0F10085E8F1 /* ProgressButton.swift */,
+				25398EB82587BF6400F61D92 /* MenuButton.swift */,
+				25EAD9F0258A74C50037C072 /* HappinessMenuButton.swift */,
+			);
+			path = "Menu Buttons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25362FAB250E826F00561A79 /* BitCiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25362FD6250E827000561A79 /* Build configuration list for PBXNativeTarget "BitCiv" */;
+			buildPhases = (
+				25362FA8250E826F00561A79 /* Sources */,
+				25362FA9250E826F00561A79 /* Frameworks */,
+				25362FAA250E826F00561A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitCiv;
+			productName = BitCiv;
+			productReference = 25362FAC250E826F00561A79 /* BitCiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25362FC1250E827000561A79 /* BitCivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25362FD9250E827000561A79 /* Build configuration list for PBXNativeTarget "BitCivTests" */;
+			buildPhases = (
+				25362FBE250E827000561A79 /* Sources */,
+				25362FBF250E827000561A79 /* Frameworks */,
+				25362FC0250E827000561A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25362FC4250E827000561A79 /* PBXTargetDependency */,
+			);
+			name = BitCivTests;
+			productName = BitCivTests;
+			productReference = 25362FC2250E827000561A79 /* BitCivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25362FCC250E827000561A79 /* BitCivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25362FDC250E827000561A79 /* Build configuration list for PBXNativeTarget "BitCivUITests" */;
+			buildPhases = (
+				25362FC9250E827000561A79 /* Sources */,
+				25362FCA250E827000561A79 /* Frameworks */,
+				25362FCB250E827000561A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25362FCF250E827000561A79 /* PBXTargetDependency */,
+			);
+			name = BitCivUITests;
+			productName = BitCivUITests;
+			productReference = 25362FCD250E827000561A79 /* BitCivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25362FA4250E826F00561A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Matthew Schuiteman";
+				TargetAttributes = {
+					25362FAB250E826F00561A79 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					25362FC1250E827000561A79 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 25362FAB250E826F00561A79;
+					};
+					25362FCC250E827000561A79 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 25362FAB250E826F00561A79;
+					};
+				};
+			};
+			buildConfigurationList = 25362FA7250E826F00561A79 /* Build configuration list for PBXProject "BitCiv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25362FA3250E826F00561A79;
+			productRefGroup = 25362FAD250E826F00561A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25362FAB250E826F00561A79 /* BitCiv */,
+				25362FC1250E827000561A79 /* BitCivTests */,
+				25362FCC250E827000561A79 /* BitCivUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25362FAA250E826F00561A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25362FBC250E827000561A79 /* LaunchScreen.storyboard in Resources */,
+				25362FB9250E827000561A79 /* Preview Assets.xcassets in Resources */,
+				25362FB6250E827000561A79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25362FC0250E827000561A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25362FCB250E827000561A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25362FA8250E826F00561A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250AFA0325BC847C0001F803 /* ScienceHandler.swift in Sources */,
+				25F462E725B2618C00631856 /* BitCivTextGameFunctions.swift in Sources */,
+				257FF41825CE151400A8703B /* SceneDelegate.swift in Sources */,
+				25398EB12587BEEF00F61D92 /* NavigationMenu.swift in Sources */,
+				25398EB92587BF6400F61D92 /* MenuButton.swift in Sources */,
+				250AF9FE25BC7EC30001F803 /* BitCivTextGameViews.swift in Sources */,
+				25DF456C25CDA09E0085E8F1 /* CommandBar.swift in Sources */,
+				25DF454C25CD9E400085E8F1 /* ViewRouter.swift in Sources */,
+				25DF455F25CDA0300085E8F1 /* DisplayView.swift in Sources */,
+				25DF457125CDA0CF0085E8F1 /* DataView.swift in Sources */,
+				250884AE2586812C008F855E /* CitizenHappinessBar.swift in Sources */,
+				25EAD9E4258A73990037C072 /* HappinessMenu.swift in Sources */,
+				255CBC0525830FE9007CB089 /* Color.swift in Sources */,
+				25DF458125CDA14C0085E8F1 /* Page.swift in Sources */,
+				25EB10322526A60E00A59D00 /* BitCivTextGame.swift in Sources */,
+				25DF457925CDA0F10085E8F1 /* ProgressButton.swift in Sources */,
+				25362FE0250E8C5000561A79 /* BitCivGame.swift in Sources */,
+				254B316225DD8BC400F84751 /* Unit.swift in Sources */,
+				25916BCF25DDFDE5006C51C2 /* BitCivNavigationView.swift in Sources */,
+				255CBBFF258309B7007CB089 /* ProgressBar.swift in Sources */,
+				255C356F25AE81BE005480E4 /* PopUpView.swift in Sources */,
+				257FF41325CE150000A8703B /* AppDelegate.swift in Sources */,
+				251AF7B825DCA8DD00C25857 /* MilitaryView.swift in Sources */,
+				25DF455A25CDA0080085E8F1 /* BitCivView.swift in Sources */,
+				25916BD425DE0158006C51C2 /* UnitView.swift in Sources */,
+				25D6043F25CB86AD00E503DA /* WorkforceView.swift in Sources */,
+				257FF3C425CDA40200A8703B /* CustomNavigationView.swift in Sources */,
+				25AF1E4625E1B76D0036194E /* Array + Identifiable.swift in Sources */,
+				25EAD9F1258A74C50037C072 /* HappinessMenuButton.swift in Sources */,
+				25DF455125CD9EA70085E8F1 /* MotherView.swift in Sources */,
+				257A854925DCB42A00D79C3D /* Civ.swift in Sources */,
+				258FBDC225D1050A00529F9E /* PopUp.swift in Sources */,
+				25BF546525BB49B800F81C51 /* ResourceIcon.swift in Sources */,
+				25362FB4250E826F00561A79 /* PopUpOption.swift in Sources */,
+				25EAD9EC258A73F70037C072 /* ScienceMenu.swift in Sources */,
+				25DF456425CDA0680085E8F1 /* TitleBar.swift in Sources */,
+				25AF1E3B25E1AE900036194E /* hasProduced.swift in Sources */,
+				2550D1CA25B65B71002DBD75 /* PopUpHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25362FBE250E827000561A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25362FC7250E827000561A79 /* BitCivTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25362FC9250E827000561A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25362FD2250E827000561A79 /* BitCivUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25362FC4250E827000561A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25362FAB250E826F00561A79 /* BitCiv */;
+			targetProxy = 25362FC3250E827000561A79 /* PBXContainerItemProxy */;
+		};
+		25362FCF250E827000561A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25362FAB250E826F00561A79 /* BitCiv */;
+			targetProxy = 25362FCE250E827000561A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25362FBA250E827000561A79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25362FBB250E827000561A79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25362FD4250E827000561A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25362FD5250E827000561A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25362FD7250E827000561A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitCiv/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitCiv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BitCiv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25362FD8250E827000561A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitCiv/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitCiv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BitCiv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25362FDA250E827000561A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BitCivTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BitCivTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitCiv.app/BitCiv";
+			};
+			name = Debug;
+		};
+		25362FDB250E827000561A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BitCivTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BitCivTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitCiv.app/BitCiv";
+			};
+			name = Release;
+		};
+		25362FDD250E827000561A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BitCivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BitCivUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitCiv;
+			};
+			name = Debug;
+		};
+		25362FDE250E827000561A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KJY9UDTSX;
+				INFOPLIST_FILE = BitCivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matthew-Schuiteman.BitCivUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitCiv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25362FA7250E826F00561A79 /* Build configuration list for PBXProject "BitCiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25362FD4250E827000561A79 /* Debug */,
+				25362FD5250E827000561A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25362FD6250E827000561A79 /* Build configuration list for PBXNativeTarget "BitCiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25362FD7250E827000561A79 /* Debug */,
+				25362FD8250E827000561A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25362FD9250E827000561A79 /* Build configuration list for PBXNativeTarget "BitCivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25362FDA250E827000561A79 /* Debug */,
+				25362FDB250E827000561A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25362FDC250E827000561A79 /* Build configuration list for PBXNativeTarget "BitCivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25362FDD250E827000561A79 /* Debug */,
+				25362FDE250E827000561A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25362FA4250E826F00561A79 /* Project object */;
+}
